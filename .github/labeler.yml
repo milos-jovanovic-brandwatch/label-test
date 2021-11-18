@@ -1,1 +1,9 @@
-simple-label: "1/*"
+# Add 'source' label to any change to src files within the source dir EXCEPT for the docs sub-folder
+source:
+- any: ['src/**/*', '!src/docs/*']
+
+1all:
+- all: ["1/**/*"]
+
+112all
+- all: ["1/12/////"]
