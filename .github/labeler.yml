@@ -4,6 +4,10 @@ source:
 
 1all:
 - all: ['1/**/*']
+- all: ['2/**/*']
+
+all-doublequotes:
+- all: ["**/*"]
 
 112all:
 - all: ['1/12/**/*']
