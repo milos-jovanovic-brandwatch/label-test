@@ -1,13 +1,13 @@
 # Add 'source' label to any change to src files within the source dir EXCEPT for the docs sub-folder
 source:
-- any: ['src/**/*', '!src/docs/*']
+  - any: ['src/**/*', '!src/docs/*']
 
 1all:
-- all: ['1/**/*']
-- all: ['2/**/*']
+  - all: ['1/**/*']
+  - all: ['2/**/*']
 
 all-doublequotes:
-- all: ["**/*"]
+  - all: ["**/*"]
 
 112all:
-- all: ['1/12/**/*']
+  - all: ['1/12/**/*']
