@@ -23,5 +23,5 @@ jobs:
 
     steps:
     - name: Send greeting
-      run: echo `env--${{ env.GITHUB_WORKFLOW }} process.env--${process.env.GITHUB_WORKFLOW} ${{ github.event.inputs.message }} ${{ fromJSON('["", "🥳"]')[github.event.inputs.use-emoji == 'true'] }} ${{ github.event.inputs.name }}`
+      run: echo "env--${{ env.GITHUB_WORKFLOW }} process.env--${{ github.workflow }} ${{ github.event.inputs.message }} ${{ fromJSON('["", "🥳"]')[github.event.inputs.use-emoji == 'true'] }} ${{ github.event.inputs.name }}"
       
