@@ -1,8 +1,8 @@
 # label-test
 
 test html display:
+---------
 
-``` html
 <html>
 <head>
 	<title>test HTML in markdown</title>
@@ -13,4 +13,3 @@ test html display:
 
 </body>
 </html>
-```
