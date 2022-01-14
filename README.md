@@ -1,5 +1,9 @@
 # label-test
 
+See html (here)[file://index.html]
+(or here)[/index.html]
+(or here)[./index.html]
+
 test html display:
 ---------
 
