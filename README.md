@@ -1,8 +1,11 @@
 # label-test
 
-See html (here)[file://index.html]
-(or here)[file:///index.html]
-(or here)[file://./index.html]
+See html [here](file://index.html)
+
+[or here](file:///index.html)
+
+[or here](file://./index.html)
+
 
 test html display:
 ---------
